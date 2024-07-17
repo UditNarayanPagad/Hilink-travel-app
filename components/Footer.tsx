@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section className="lg:h-screen/2 w-full flex flex-wrap gap-7 lg:gap-0 p-20 justify-between">
       <div className=" p-4">
-        <img src="hilink-logo.svg" alt="" />
+        <img src="./hilink-logo.svg" alt="" />
       </div>
       {FOOTER_LINKS.map((item, indx) => (
         <div key={indx} className="">

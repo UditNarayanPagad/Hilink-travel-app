@@ -13,7 +13,7 @@ const GetApp = () => {
         </div>
       </div>
       <div>
-        <img src="phones.png" alt="" />
+        <img src="./phones.png" alt="" />
       </div>
     </section>
   )

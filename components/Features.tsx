@@ -12,12 +12,12 @@ const Features = () => {
           className="rotate-12 hidden lg:inline-block"
           height={700}
           width={400}
-          src="phone.png"
+          src="./phone.png"
           alt=""
         />
 
         <div className="relative lg:w-[70%] lg:ml-14 p-6">
-          <img className="absolute -m-7 lg:-m-4" src="camp.svg" alt="" />
+          <img className="absolute -m-7 lg:-m-4" src="./camp.svg" alt="" />
           <h1 className="text-5xl lg:text-7xl font-semibold mb-8">Our Features</h1>
           <div className="flex flex-wrap gap-8">
             {FEATURES.map((item,indx)=>(
@@ -28,7 +28,7 @@ const Features = () => {
             </div>
             ))}
           </div>
-        </div>
+          </div>
       </div>
     </section>
   );

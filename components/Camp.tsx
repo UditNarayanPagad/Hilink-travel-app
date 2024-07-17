@@ -4,11 +4,11 @@ const Camp = () => {
   return (
     <section className="min-h-[100vh] relative">
       <div className="relative w-[100vw] lg:h-[90vh] h-[50%] flex gap-4 lg:gap-14 p-3 overflow-x-hidden">
-        <img className="rounded-lg lg:rounded-2xl " src="img-1.png" width="90%" alt="" />
-        <img src="img-2.png" className="rounded-lg lg:rounded-2xl" alt="" />
+        <img className="rounded-lg lg:rounded-2xl " src="./img-1.png" width="90%" alt="" />
+        <img src="./img-2.png" className="rounded-lg lg:rounded-2xl" alt="" />
         <div className="absolute flex items-center lg:top-12 lg:left-12 top-6 left-7 gap-2">
           <div className="w-11 h-11 lg:w-16 lg:h-16 bg-green-400 rounded-full flex items-center justify-center">
-            <img src="folded-map.svg" width="70%" alt="" />
+            <img src="./folded-map.svg" width="70%" alt="" />
           </div>
           <div className="text-white">
             <h1 className="text-lg font-bold">Putuk Truno Camp</h1>
@@ -17,10 +17,10 @@ const Camp = () => {
         </div>
         <div className="absolute bottom-8 left-8 flex items-center gap-5 lg:left-12 lg:bottom-12">
           <div className="flex -space-x-4">
-            <img src="person-1.png" width={40} alt="" />
-            <img src="person-2.png" width={40} alt="" />
-            <img src="person-3.png" width={40} alt="" />
-            <img src="person-4.png" width={40} alt="" />
+            <img src="./person-1.png" width={40} alt="" />./
+            <img src="./person-2.png" width={40} alt="" />
+            <img src="./person-3.png" width={40} alt="" />
+            <img src="./person-4.png" width={40} alt="" />
           </div>
           <h1 className="text-white font-bold lg:text-lg">50+ Joined</h1>
         </div>
@@ -32,7 +32,7 @@ const Camp = () => {
           location, the possibility of getting lost is very large. That's why we
           are here for those of you who want to start an adventure
         </p>
-        <img className="absolute right-0" src="quote.svg" alt="" />
+        <img className="absolute right-0" src="./quote.svg" alt="" />
       </div>
     </section>
   );
